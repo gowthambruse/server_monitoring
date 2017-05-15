@@ -58,7 +58,7 @@ function formatSize( $bytes )
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL,"http://45.33.43.250:8086/write?db=server");
+curl_setopt($ch, CURLOPT_URL,"http://localhost:8086/write?db=server");
 curl_setopt($ch, CURLOPT_POST, 1);
 
 
